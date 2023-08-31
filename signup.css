@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Philosopher', sans-serif;
+    background-color: aqua;
+}
+main{
+    color:blacj ;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100VH;
+}
+main form{
+    width: 30%;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 5px;
+}
+label ,#fname,#lname,#mobile,#email,#date,#pass,#cpass,#select,#btn{
+   
+   
+     /* width: 90%; */
+    height: 20px;
+     border-radius: 5px; 
+    /* border: none; */
+    /* padding-left: 30px; */
+    /* margin-bottom: 1px; */
+    /* margin-top: 5% */
+}
+label{
+    font-size: 20px;
+}
+#btn{
+    background-color: greenyellow;
+}
